@@ -91,6 +91,10 @@ a:hover {
     right: 0;
 }
 
+.carousel-caption h3 {
+    font-size: 6vw;
+}
+
 
 /* FOOTER */ 
 .footer {
