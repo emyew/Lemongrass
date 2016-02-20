@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Ikaros;
+    src: url(ikaros.otf);
+}
+
+div {
+    font-family: Ikaros;
+}
+
+h1 {
+    white-space: pre;
+    text-align: center;
+    color: #2d1303;
+}
+
+/* STATIC IMAGE */
+body {
+    background-image: url(bamboo_tabletop.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+img {
+	width: 75%;
+	height: auto;
+}
+
+#logo {
+	padding-top: 10%;
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+}
+
+/* FARM FRESH PLATES */
+#farmfresh {
+	background: #698723;
+    float: left;
+    display: table;
+}
+
+#farmfresh h1 {
+    position: relative;
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)*/
+    /*text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  */
+}
+
+/* HOURS & LOCATION */
+#hours {
+    background: #f1f1e7;
+    /*float: left;*/
+    text-align: center;
+    clear: both;
+    overflow: auto;
+}
+
+#hours li {
+    white-space: pre;
+    color: #2d1303;
+    margin-left: -30px;
+}
+
+a {
+    color: #698723;
+}
+
+a:hover {
+    color: #4c7100;
+    text-decoration: none;
+}
+
+/* GALLERY */
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    right: 0;
+}
+
+
+/* FOOTER */ 
+.footer {
+    background: #698723;
+    display: table;
+    text-align: center;
+}
+
+.footer-inner * {
+    color: #f1f1e7;
+    font-size: 4vw;
+    display: inline;
+}
+
