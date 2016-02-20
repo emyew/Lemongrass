@@ -30,15 +30,15 @@ img {
 	padding-top: 10%;
 }
 
-br {
+/*br {
    display: block;
    margin: 10px 0;
-}
+}*/
 
 /* FARM FRESH PLATES */
 #farmfresh {
 	background: #698723;
-    float: left;
+    /*float: left;*/
     display: table;
 }
 
@@ -58,10 +58,17 @@ br {
 /* HOURS & LOCATION */
 #hours {
     background: #f1f1e7;
-    /*float: left;*/
-    text-align: center;
+    /*float: left;
+    text-align: center; */
     clear: both;
     overflow: auto;
+    display: table;
+}
+
+#hours * {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #hours li {
