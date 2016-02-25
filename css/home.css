@@ -1,10 +1,10 @@
 @font-face {
     font-family: Ikaros;
-    src: url(ikaros.otf);
+    src: url(../fonts/ikaros.otf);
 }
 
 div {
-    font-family: Ikaros;
+    font-family: 'Ikaros';
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 
 /* STATIC IMAGE */
 body {
-    background-image: url(bamboo_tabletop.png);
+    background-image: url(../images/bamboo_tabletop.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -44,9 +44,9 @@ img {
 
 #farmfresh h1 {
     position: relative;
-    display: table-cell; 
-    vertical-align: middle; 
-    text-align: center; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
     /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)*/
@@ -103,7 +103,7 @@ a:hover {
 }
 
 
-/* FOOTER */ 
+/* FOOTER */
 .footer {
     background: #698723;
     display: table;
@@ -115,4 +115,3 @@ a:hover {
     font-size: 4vw;
     display: inline;
 }
-
