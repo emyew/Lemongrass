@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Get in Touch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="get-in-touch">
+    	<h1 style="margin-top: 10vw; font-size: 8vw">G E T  I N  T O U C H</h1>
+    	<h2 style="text-align: center; color: #2d1303; font-size: 5vw">Let us know how we're doing!</h2>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container">
+  		<form class="form" method="post" action="contact.php">
+    		<p id="first-name">
+    			<input type="text" name="firstName" id="firstName" placeholder="First Name" required/>
+    			<!-- <?php
+        			/*if (isset($name)) {
+            			echo htmlspecialchars($name);
+        			}*/
+    			?> -->
+    		</p>
+    		<p id="last-name">
+    			<input type="text" name="lastName" id="lastName" placeholder="Last Name" required/>
+    		</p>
+    		<p id="email">
+    			<input type="email" name="email" id="email" placeholder="Email" required/>
+    		</p>
+    		<p id="message">
+    			<textarea rows="10" type="text" name="message" id="message" placeholder="Feel free to leave any questions, suggestions and comments!" required></textarea>
+    		</p>
+    		<p id="submit" style="text-align: center">
+    			<input type="submit" value="S E N D" />
+    		</p>
+    	</form>
+    </div>
+
+
+  	 <!-- Footer -->
+    <div class="footer" style="height: 8vw; width: 100vw">
+        <div class="footer-inner" style="padding-top: 2vw">
+            <ul style="list-style-type: none">
+                <li><a href="https://www.facebook.com/LemongrassPlates/"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="http://www.yelp.com/biz/lemongrass-plates-san-diego"><i class="fa fa-yelp"></i></a></li>
+                <li><h1>(858) 455-6465</h1></li>
+            </ul>
+        </div>
+    </div>
+
+  	<script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
