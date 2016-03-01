@@ -3,6 +3,12 @@
     src: url(../fonts/ikaros.otf);
 }
 
+@media(max-width:768px) {
+    #sidemenu li{
+      font-size: 16px;
+    }
+}
+
 div {
     font-family: 'Ikaros';
 }
@@ -74,6 +80,110 @@ body {
 
 .carousel-caption li {
 	white-space: pre;
+}
+
+/*Circular images style*/
+.circular_category{
+    border-radius:50%;
+    transition: transform 0.5s ease;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.circle_content{
+  background-size: cover;
+  overflow: hidden;
+  width: 20vw;
+  height: 20vw;
+  zoom: 1.2;
+}
+
+.price{
+  font-size: 3vw;
+}
+
+.chicken{
+  background: url(../images/chicken.jpg);
+  background-position: center;
+  background-size: 220%;
+}
+
+.tofu{
+  background: url(../images/tofu.jpg);
+  background-position: center;
+  background-size: 200%;
+}
+
+.beef{
+  background: url(../images/beef.jpg);
+  background-position: -7vw center;
+  background-size: 300%;
+}
+
+.pork{
+  background: url(../images/pork.jpg);
+  background-position: center;
+  background-size: 150%;
+}
+
+.salmon{
+  background: url(../images/salmon.jpg);
+  background-position: center;
+  background-size: 350%;
+}
+
+.roll{
+  background: url(../images/eggrolls.jpg);
+  background-position: center;
+  background-size: 150%;
+}
+
+.egg{
+  background: url(../images/egg.jpg);
+  background-position: center;
+  background-size: 150%;
+}
+
+.rice{
+  background: url(../images/rice.jpg);
+  background-position: center top;
+  background-size: 250%;
+}
+
+.salad{
+  background: url(../images/green_salad.jpg);
+  background-position: right top;
+  background-size: 200%;
+}
+
+.sauteed{
+  background: url(../images/sauteed_veggies.jpg);
+  background-position: right top;
+  background-size: 220%;
+}
+
+.soup{
+  background: url(../images/soup.jpg);
+  background-position: -12vw center;
+  background-size: 180%;
+}
+
+.three-row{
+  width: 90%;
+  margin-bottom: 3vw;
+}
+
+.two-row{
+  width: 60%;
+}
+
+table {
+  margin: auto;
+  font-size: 4vw;
+}
+
+td {
+  text-align: center;
 }
 
 /* Footer */
