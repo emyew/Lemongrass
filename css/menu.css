@@ -48,7 +48,7 @@ body {
     margin: 0px;
 }
 
-/* Fresh Grill Gallery */
+/* Galleries */
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 100%;
@@ -76,9 +76,7 @@ body {
 	white-space: pre;
 }
 
-
-
-/* FOOTER */
+/* Footer */
 .footer {
     background: #698723;
     display: table;

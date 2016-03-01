@@ -13,7 +13,7 @@ h1 {
     color: #2d1303;
 }
 
-/* STATIC IMAGE */
+/* Static background image */
 body {
     background-image: url(../images/bamboo_tabletop.png);
     background-size: cover;
@@ -30,12 +30,7 @@ img {
 	padding-top: 10%;
 }
 
-/*br {
-   display: block;
-   margin: 10px 0;
-}*/
-
-/* FARM FRESH PLATES */
+/* Farm Fresh Plates header */
 #farmfresh {
 	background: #698723;
     /*float: left;*/
@@ -55,7 +50,7 @@ img {
     line-height: 90px;  */
 }
 
-/* HOURS & LOCATION */
+/* Hours & Location section */
 #hours {
     background: #f1f1e7;
     /*float: left;
@@ -86,7 +81,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* GALLERY */
+/* Gallery */
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 100%;
@@ -102,8 +97,7 @@ a:hover {
     font-size: 6vw;
 }
 
-
-/* FOOTER */
+/* Footer */
 .footer {
     background: #698723;
     display: table;
