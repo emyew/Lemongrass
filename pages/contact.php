@@ -6,7 +6,7 @@
 		$message=$_POST['message'];
 
 		$from = 'Lemongrass Contact Form';
-		$to = 'epicfaailx@gmail.com';
+		$to = 'emyew2@gmail.com';
 		$subject = 'Feedback for Lemongrass';
 
 		$body = "From: $firstName\n Email: $email\n Message:\n $message";
