@@ -1,73 +1,56 @@
+<!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <title>L E M O N G R A S S</title> -->
+  <link rel="shortcut icon" href="">
 
-        <title>L E M O N G R A S S</title>
-        <link rel="shortcut icon" href="">
+  <!-- Bootstrap Core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/jasny-bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nav.css" rel="stylesheet">
 
-        <!-- Bootstrap Core CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/nav.css" rel="stylesheet">
+</head>
+<!--Div around the entire nav and menu, while keeping the inside relative-->
 
-    </head>
+<body>
+  <!-- Side Menu -->
+  <nav id="sidemenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+    <a id="navbrand" class="navmenu-brand" href="#">LG</a>
+    <ul class="nav navmenu-nav">
+      <li><a id="currentnav" href="#"><span class="glyphicons glyphicons-home"></span>HOME</a></li>
+      <li><a href="#"><span class="glyphicons glyphicons-cutlery"></span>MENU</a></li>
+      <li><a href="#"><span class="glyphicons glyphicons-book"></span>ABOUT</a></li>
+      <li><a href="#"><span class="glyphicons glyphicons-envelope"></span>GET IN TOUCH</a></li>
+      <li><a href="#"><span class="glyphicons glyphicons-shopping-cart"></span>ORDER ONLINE</a></li>
+    </ul>
+  </nav>
 
+  <!-- Page Content -->
+  <div class="canvas canvas-close">
+    <div id="fixed_bar" class="navbar navbar-default navbar-fixed-top">
+      <button id="menubutton" type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#sidemenu" data-canvas="body">
+        <span id="menu-bar" class="icon-bar"></span>
+        <span id="menu-bar" class="icon-bar"></span>
+        <span id="menu-bar" class="icon-bar"></span>
+      </button>
+      <!-- Logo to be inserted here later -->
+    </div>
 
-    <body>
-        <div id="sidebar-wrapper">
-        <div id="sidebar-menu">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"></li>
-                <li><a>HOME</a></li>
-                <li><a>MENU</a></li>
-                <li><a>ABOUT</a></li>
-                <li><a>GET IN TOUCH</a></li>
-                <li><a>ORDER ONLINE</a></li>
-            </ul>
-        </div>
-        </div>
-
-        <!-- Fixed Header -->
-        <nav class="navbar navbar-fixed-top">
-            <div class="container-fluid">
-            <div id="navtitle">
-                <a href="#toggle_menu" class="menu-button" id="toggle_menu">
-                <span class="menu-bar"></span>
-                <span class="menu-bar"></span>
-                <span class="menu-bar"></span>
-                </a>
-                <table id="lemongrass_header">
-                    <tr>
-                        <td><img class="headerimg" src="../images/lemongrasslogo_nonfresh.png"></td>
-                    </tr>
-                </table>
-            </div>
-            </div>
-        </nav>
-        <!-- /#Fixed Header -->
-
-        <!-- PAGE CONTENT HERE -->
-        <div id="page-content">
-            <div class="container-fluid">
-
-            </div>
-        </div>
-        <!-- / END PAGE CONTENT -->
+    <!-- PAGE CONTENT HERE -->
 
 
-        <!-- Scripts -->
+  </div>
 
-        <script src="../js/jquery-1.12.0.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
 
-        <script>
-        $("#toggle_menu").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("toggled");
-        });
-        </script>
 
-    </body>
+  <!-- Scripts -->
+  <script src="../js/jquery-1.12.0.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jasny-bootstrap.min.js"></script>
+
+</body>
 </html>

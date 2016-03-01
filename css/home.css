@@ -13,14 +13,6 @@ h1 {
     color: #2d1303;
 }
 
-/* Static background image */
-body {
-    background-image: url(../images/bamboo_tabletop.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 img {
 	width: 75%;
 	height: auto;

@@ -3,163 +3,98 @@
     src: url('../fonts/Ikaros.otf') format('opentype');
 }
 
-@media(max-width:480px){
-    .headerimg{
-        width: 200px;
-    }
-}
-
 @media(max-width:768px) {
-    #wrapper.toggled {
-        margin-left: 100px; /*changed*/
-        margin-right: -100px; /*changed*/
+    #sidemenu li, #menutoggle li{
+      font-size: 16px;
     }
 }
 
-body {
+@media (min-width: 0) {
+  .navbar-toggle {
+    display: block; /* force showing the toggle */
+  }
+}
+
+html, body {
     font-family: "Ikaros";
-    background-image: url(../images/bamboo_tabletop.png);
-}
-
-.headerimg{
-    width: 300px;
-}
-
-#lemongrass_header{
-    width: 100%;
-    height: 57px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    position:absolute;
-    top: 0;
-    left: 0;
-    z-index: 80;
-    margin-top: 10px;
-}
-
-#lemongrass_header td{
-    vertical-align: middle;
-    text-align: center;
-}
-
-.menu-button .menu-bar{
-    display:block;
-    width:32px;
-    height:5px;
-    border-radius: 20px;
-    background-color:#53260d;
-    transition: background-color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease;
-    -o-transition: background-color 0.5s ease;
-    -moz-transition: background-color 0.5s ease;
-}
-
-.menu-bar+.menu-bar{
-    margin-top:4px
-}
-
-#navtitle{
-    display:inline-block;
-    width: 100%;
-    white-space: nowrap;
-}
-
-nav{
-    background-color: transparent;
-    padding-top: 10px;
-}
-
-.menu-button {
-    position: relative;
-    float: left;
-    padding: 8px 8px;
-    margin-top: 8px;
-    margin-right: 5px;
-    margin-bottom: 8px;
-    background-color: white;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    z-index: 100;
-}
-
-.menu-button:hover .menu-bar {
-    background-color: #e9e3b6;
-}
-
-.menu-button .icon-bar + .icon-bar {
-  margin-top: 4px;
-}
-
-#page-content{
-    width: 100%;
-    position: relative;
-}
-
-/**SIDEBAR CSS**/
-#sidebar-wrapper {
-    margin-left: 0px; /*changed*/
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-#sidebar-wrapper.toggled {
-    padding-left: 100px;
-    width: 100px;
-    position: relative;
-}
-
-#sidebar-wrapper.toggled #sidebar-menu {
-    width: 100px;
-}
-
-#sidebar-wrapper.toggled #page-content {
-    position: absolute;
-    margin-right: 100px;
-}
-
-#sidebar-menu{
-    z-index: 1000;
-    left: 100px;
-    width: 0px;
     height: 100%;
-    margin-left: -100px;
-    position: fixed;
-    overflow-y: auto;
-    background: #e9e3b6;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    background-image: url(../images/bamboo_tabletop.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-#sidebar-menu ul{
-    position: absolute;
-    top: 0;
-    width: 100px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
-#sidebar-menu li {
-
+.canvas {
+  position: relative;
+  padding: 60px 0 0 0;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
-#sidebar-menu li a {
-    display: block;
-    text-decoration: none;
-    color: #2d1303;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+#sidemenu{
+  padding: 20px;
+  width: 150px;
+  background-color: #E9E2B8;
+  left: -150px;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
-#side-menu li a:hover {
-    color: #53260d;
+#navbrand{
+  font-size: 60px;
+  padding-bottom: 30px;
+}
 
+#sidemenu ul, #menutoggle ul{
+  font-size: 18px;
+}
+
+#sidemenu #currentnav, #menutoggle #currentnav, #sidemenu a:hover, #menutoggle a:hover {
+  color: #6A862B;
+}
+
+#sidemenu a, #menutoggle a {
+  color: #2D1304;
+  text-align: center;
+}
+
+#fixed_bar{
+  background: transparent;
+  border-style: none;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+#menubutton{
+  border-style: none;
+  background-color: white;
+}
+
+#menubutton:hover{
+  background-color: #F1F1E7;
+}
+
+#menu-bar+ #menu-bar{
+    margin-top:5px;
+}
+
+#menu-bar{
+  height: 4px;
+  width: 30px;
+  background-color: #522610;
 }

@@ -6,11 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link href="../css/jasny-bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
+
+    <!-- Side Menu -->
+    <div id="sidemenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+      <a id="navbrand" class="navmenu-brand" href="#">LG</a>
+      <ul class="nav navmenu-nav">
+        <li><a href="index.html">
+          <span class="glyphicons glyphicons-home"></span>HOME
+        </a></li>
+        <li><a href="menu.html">
+          <span class="glyphicons glyphicons-cutlery"></span>MENU
+        </a></li>
+        <li><a href="about.html">
+          <span class="glyphicons glyphicons-book"></span>ABOUT
+        </a></li>
+        <li><a id="currentnav" href="#">
+          <span class="glyphicons glyphicons-envelope"></span>GET IN TOUCH
+        </a></li>
+        <li><a href="https://ordering.chownow.com/order/2433/locations" target="_blank">
+          <span class="glyphicons glyphicons-shopping-cart"></span>ORDER ONLINE
+        </a></li>
+      </ul>
+    </div>
+
+    <!-- Page Content -->
+    <div class="canvas canvas-close">
+      <div id="fixed_bar" class="navbar navbar-default navbar-fixed-top">
+        <button id="menubutton" class="navbar-toggle" data-toggle="offcanvas" data-target="#sidemenu" data-canvas="body">
+          <span id="menu-bar" class="icon-bar"></span>
+          <span id="menu-bar" class="icon-bar"></span>
+          <span id="menu-bar" class="icon-bar"></span>
+        </button>
+        <!-- Logo to be inserted here later -->
+      </div>
+
     <!-- Header -->
     <div id="get-in-touch">
     	<h1 style="margin-top: 10vw; font-size: 8vw">G E T  I N  T O U C H</h1>
@@ -55,7 +89,11 @@
         </div>
     </div>
 
+  </div>
+
   	<script src="../js/jquery-1.12.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jasny-bootstrap.min.js"></script>
+
   </body>
 </html>
