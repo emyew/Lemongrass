@@ -1,29 +1,7 @@
-@font-face {
-    font-family: Ikaros;
-    src: url(../fonts/ikaros.otf);
-}
-
-@media(max-width:768px) {
-    #sidemenu li{
-      font-size: 16px;
-    }
-}
-
-div {
-    font-family: 'Ikaros';
-}
-
 h1 {
     white-space: pre;
     text-align: center;
     color: #2d1303;
-}
-
-body {
-    background-image: url(../images/bamboo_tabletop.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 /* Catering Info */

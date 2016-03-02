@@ -64,8 +64,8 @@ html, body {
 }
 
 #navbrand{
+  padding-top: 30px;
   font-size: 60px;
-  padding-bottom: 30px;
 }
 
 #sidemenu li{

@@ -1,12 +1,3 @@
-@font-face {
-    font-family: Ikaros;
-    src: url(../fonts/ikaros.otf);
-}
-
-div {
-    font-family: 'Ikaros';
-}
-
 h1 {
     white-space: pre;
     text-align: center;
