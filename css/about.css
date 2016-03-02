@@ -27,17 +27,3 @@ small {
     background-position: relative;
     background-attachment: fixed;
 }*/
-
-
-/* Footer */
-.footer {
-    background: #698723;
-    display: table;
-    text-align: center;
-}
-
-.footer-inner * {
-    color: #f1f1e7;
-    font-size: 4vw;
-    display: inline;
-}

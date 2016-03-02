@@ -25,8 +25,8 @@
 }
 
 html, body {
+    min-height: 100%;
     font-family: "Ikaros";
-    height: 100%;
     background-image: url(../images/bamboo_tabletop.png);
     background-size: cover;
     background-position: center;
@@ -42,7 +42,9 @@ html, body {
   transition: all 0.35s ease;
 }
 
+/*page content wrapper*/
 .canvas {
+  height: 100%;
   position: relative;
   padding: 60px 0 0 0;
   -webkit-transition: all 0.35s ease;
@@ -108,4 +110,25 @@ html, body {
   height: 4px;
   width: 28px;
   background-color: #522610;
+}
+
+/* Footer */
+.footer {
+    color: #f1f1e7;
+    background: #698723;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 11vw;
+}
+
+.footercontent{
+  height: 100%;
+  padding-top: 3.5vw;
+  font-size: 4vw;
+  vertical-align: middle;
+}
+
+.footer a{
+    color: #f1f1e7;
 }
