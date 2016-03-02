@@ -25,6 +25,7 @@
 }
 
 html, body {
+    width: 100%;
     min-height: 100%;
     font-family: "Ikaros";
     background-image: url(../images/bamboo_tabletop.png);
@@ -44,8 +45,6 @@ html, body {
 
 /*page content wrapper*/
 .canvas {
-  height: 100%;
-  position: relative;
   padding: 60px 0 0 0;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
