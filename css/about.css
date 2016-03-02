@@ -1,0 +1,43 @@
+
+p {
+    color: #2d1303;
+    padding: 7%;
+    line-height: 120%;
+    font-size: 28px;
+    background-color: #f1f1e7;
+}
+
+small {
+    color: #698723;
+    font-size: 20px;
+}
+
+/*.image-1 {
+    background-size: 100%;
+    background-position: relative;
+    background-attachment: fixed;
+}
+.image-2 {
+    background-size: contain;
+    background-position: relative;
+    background-attachment: fixed;
+}
+.image-3 {
+    background-size: contain;
+    background-position: relative;
+    background-attachment: fixed;
+}*/
+
+
+/* Footer */
+.footer {
+    background: #698723;
+    display: table;
+    text-align: center;
+}
+
+.footer-inner * {
+    color: #f1f1e7;
+    font-size: 4vw;
+    display: inline;
+}
