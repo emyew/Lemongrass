@@ -4,38 +4,45 @@ h1 {
     color: #2d1303;
 }
 
+#get-in-touch h1 {
+	margin-top: 10vw; 
+	font-size: 8vw;
+}
+
+#get-in-touch h2 {
+	text-align: center; 
+	color: #2d1303; 
+	font-size: 5vw;
+}
+
 /* FEEDBACK FORM */
 .container {
 /*	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-left: 65px;
 	max-width: 580px;*/
-	margin: 0 auto;
+    margin: 0 auto;
 	max-width: 600px;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
-/*form {
-	text-align: center;
-}*/
-
 input, textarea {
-    /*display: block;*/
     width: 100%;
-   /* border-radius:4px;
-    -webkit-border-radius:4px;
-    -moz-border-radius:4px;*/
     background-color: #ffffff;
-    /*color:#000;*/
-    /*border:1px solid #5f5f5f;*/
     padding: 10px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     font-size: 20px;
+}
+
+input {
+	line-height: 35px;
+	font-family: Tahoma;
 }
 
 textarea {
 	resize: none;
+	font-family: Tahoma;
 }
 
 #submit input {
@@ -48,6 +55,7 @@ textarea {
 	white-space: pre;
 	width: 25%;
 	padding: 5px;
+	padding-top: 10px;
 }
 
 #submit input:hover {
