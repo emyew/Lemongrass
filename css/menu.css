@@ -11,6 +11,14 @@ h1 {
   padding-bottom: 8vw;
 }
 
+@media screen and (min-width: 720px) {
+  #menu-header {
+    font-size: 70px; 
+    padding-top: 25px; 
+    padding-bottom: 25px;
+  }
+}
+
 /* Catering Info */
 #catering {
 	background: #ff7700;
@@ -30,6 +38,17 @@ h1 {
     padding-top: 3vw;
 }
 
+@media screen and (min-width: 720px) {
+  #catering {
+    height: 55px;
+  }
+
+  #catering > h1 {
+    font-size: 30px; 
+    padding-top: 20px;
+  }
+}
+
 /* Category Headers */
 #headers {
 	background: #698723;
@@ -47,6 +66,44 @@ h1 {
   font-size: 5vw; 
   color: #f1f1e7; 
   padding-top: 3vw;
+}
+
+#sig-headers {
+  background: #698723;
+  margin: 0px;
+  width: 100vw;
+  height: 20vw;
+}
+
+#sig-headers h1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0px;
+  font-size: 5vw; 
+  color: #f1f1e7; 
+  padding-top: 3vw;
+}
+
+@media screen and (min-width: 720px) {
+  #headers {
+    height: 90px;
+  }
+
+  #headers > h1 {
+    font-size: 40px;
+    padding-top: 25px;
+  }
+
+  #sig-headers {
+    height: 150px;
+  }
+
+  #sig-headers h1 {
+    font-size: 40px;  
+    padding-top: 25px;
+  }
 }
 
 /* Galleries */
@@ -113,6 +170,27 @@ h1 {
   } 
 }*/
 
+@media screen and (min-width: 720px) {
+  .carousel-caption-below > h3 {
+    padding-top: 15px;
+    font-size: 35px;
+  }
+
+  .carousel-caption-below > h4 {
+    font-size: 30px;
+  }
+
+  .carousel-caption-below > ul > li {
+    font-size: 25px;
+  }
+
+  .carousel-control .glyphicon,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    font-size: 40px;
+  }
+}
+
 /* Headers for circular image sections */
 .circ-header {
   padding-top: 3vw;
@@ -126,6 +204,20 @@ h1 {
   font-size: 4vw;
   text-align: center;
   color: #2d1303;
+}
+
+@media screen and (min-width: 720px) {
+  .circ-header {
+    padding-top: 15px;
+  }
+
+  .circ-header > h1 {
+    font-size: 40px;
+  }
+
+  .circ-header > h2 {
+    font-size: 25px;
+  }
 }
 
 
@@ -232,4 +324,27 @@ table {
 
 td {
   text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+  .circle_content{
+    width: 190px;
+    height: 190px;
+  }
+
+  .price{
+    font-size: 25px;
+  }
+
+  .beef{
+    background-position: -50px center;
+  }
+
+  .salmon{
+    background-position: -250px center;
+  }
+
+  table {
+    font-size: 30px;
+  }
 }
