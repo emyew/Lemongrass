@@ -37,6 +37,40 @@ h1 {
     margin-right: auto;
 }
 
+@media screen and (min-width: 1000px) {
+    #header img {
+        width: 65%;
+        height: auto;
+    }
+
+    #header h1 {
+        font-size: 50px; 
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+        padding-top: 20px;
+    }
+
+    #logo {
+        padding-top: 50px;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    #header br {
+        line-height: 50px; 
+        display: block; 
+        margin: 10px 0;
+    }
+
+    #bowl {
+        display: block; 
+        margin-left: 100px; 
+        margin-right: auto;
+    }
+}
+
 /* Farm Fresh Plates header */
 #farmfresh {
 	background: #698723;
@@ -60,6 +94,17 @@ h1 {
     /*text-align: center;
     vertical-align: middle;
     line-height: 90px;  */
+}
+
+@media screen and (min-width: 1000px) {
+    #farmfresh {
+        height: 100px;
+    }
+
+    #farmfresh h1 {
+        font-size: 50px;
+        padding-top: 35px;
+    }
 }
 
 /* Hours & Location section */
@@ -117,6 +162,33 @@ a:hover {
     margin-bottom: 25px;
 }
 
+@media screen and (min-width: 1000px) {
+    #hours {
+        height: 400px;
+    }
+
+    #hours h1 {
+        padding-top: 20px; 
+        font-size: 50px;
+    }
+
+
+    #hours ul {
+        font-size: 40px;
+    }
+
+    #hours h2 {
+        font-size: 40px; 
+        margin-top: 30px; 
+        margin-bottom: -15px;
+    }
+
+    #hours h3 {
+        font-size: 40px; 
+        margin-bottom: 25px;
+    }
+}
+
 /* Gallery */
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -132,3 +204,10 @@ a:hover {
 .carousel-caption h3 {
     font-size: 6vw;
 }
+
+@media screen and (min-width: 1000px) {
+    .carousel-caption h3 {
+        font-size: 50px;
+    }
+}
+

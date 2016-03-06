@@ -131,3 +131,14 @@ html, body {
 .footer a{
     color: #f1f1e7;
 }
+
+@media screen and (min-width: 1000px) {
+  .footer {
+    height: 105px;
+  }
+
+  .footercontent {
+    padding-top: 30px;
+    font-size: 40px;
+  }
+}
