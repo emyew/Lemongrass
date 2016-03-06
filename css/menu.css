@@ -4,61 +4,129 @@ h1 {
     color: #2d1303;
 }
 
+/* Menu Header */
+#menu-header {
+  font-size: 10vw; 
+  padding-top: 8vw; 
+  padding-bottom: 8vw;
+}
+
 /* Catering Info */
 #catering {
 	background: #ff7700;
 	margin: 0px;
+  width: 100vw;
+  height: 10vw;
 }
 
-#catering h1 {
+#catering > h1 {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     margin: 0px;
+    font-size: 5vw; 
+    color: #f1f1e7; 
+    padding-top: 3vw;
 }
 
 /* Category Headers */
-#headers{
+#headers {
 	background: #698723;
 	margin: 0px;
+  width: 100vw;
+  height: 15vw;
 }
 
-#headers h1 {
+#headers > h1 {
 	position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    margin: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0px;
+  font-size: 5vw; 
+  color: #f1f1e7; 
+  padding-top: 3vw;
 }
 
 /* Galleries */
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
+.carousel-inner img {
+  width: 100vw;
 }
 
-.carousel-caption {
-    background: white;
-    color: #2d1303;
-    position: relative;
-    left: auto;
-    right: auto;
-    text-align: center;
+.carousel-caption-below {
+  padding: 5px 10px;
+  overflow-y: scroll;
+  color: #2d1303;
+  background: white;
+  height: 100%;
+  text-align: center;
 }
 
-.carousel-caption h3 {
-    font-size: 5vw;
-    white-space: pre;
+.carousel-caption-below > h3 {
+  padding-top: 1.5vw;
+  font-size: 5vw;
+  white-space: pre;
 }
 
-.carousel-caption h4 {
-	font-size: 4vw;
+.carousel-caption-below > h4 {
+  font-size: 4vw;
 }
 
-.carousel-caption li {
-	white-space: pre;
+.carousel-caption-below > ul > li {
+  white-space: pre;
+  list-style-type: none;
+  font-size: 3vw;
 }
+
+.carousel-indicators {
+  bottom: -20px;
+  color: #698723;
+  padding-bottom: 5px;
+}
+
+.carousel-indicators li {
+  background: #ccc;
+}
+
+.carousel-indicators .active {
+  background: #666;
+}
+
+.carousel-control .glyphicon,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  font-size: 7vw;
+  /*text-shadow: -5px 0 #698723, 0 5px #698723, 5px 0 #698723, 0 -5px #698723*/
+}
+
+/* Removes gradient from side arrows */
+/*.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}*/
+
+/*@media (min-width: 768px) {
+  .carousel-caption-below {
+    padding: 6px 12px;
+    height: 131.25px;
+    font-size: 14px; 
+  } 
+}*/
+
+/* Headers for circular image sections */
+.circ-header {
+  padding-top: 3vw;
+}
+
+.circ-header > h1 {
+  font-size: 5vw;
+}
+
+.circ-header > h2 {
+  font-size: 4vw;
+  text-align: center;
+}
+
 
 /*Circular images style*/
 .circular_category{
