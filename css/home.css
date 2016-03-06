@@ -4,13 +4,37 @@ h1 {
     color: #2d1303;
 }
 
-img {
+/* Logo, header, bowl */
+#header img {
 	width: 75%;
 	height: auto;
 }
 
+#header h1 {
+    font-size: 5vw; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 2vw;
+}
+
 #logo {
 	padding-top: 10%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#header br {
+    line-height: 5vw; 
+    display: block; 
+    margin: 10px 0;
+}
+
+#bowl {
+    display: block; 
+    margin-left: 15px; 
+    margin-right: auto;
 }
 
 /* Farm Fresh Plates header */
@@ -18,6 +42,8 @@ img {
 	background: #698723;
     /*float: left;*/
     display: table;
+    height: 12vw; 
+    width: 100vw;
 }
 
 #farmfresh h1 {
@@ -25,6 +51,9 @@ img {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    font-size: 5vw; 
+    color: #f1f1e7; 
+    padding-top: 3vw;
     /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)*/
@@ -41,6 +70,13 @@ img {
     clear: both;
     overflow: auto;
     display: table;
+    height: 50vw; 
+    width: 100vw;
+}
+
+#hours h1 {
+    padding-top: 2vw; 
+    font-size: 5vw;
 }
 
 #hours * {
@@ -49,10 +85,22 @@ img {
     text-align: center;
 }
 
+#hours ul {
+    list-style-type: none; 
+    font-size: 3.5vw;
+}
+
 #hours li {
     white-space: pre;
     color: #2d1303;
     margin-left: -30px;
+}
+
+#hours h2 {
+   font-size: 3.5vw; 
+   color: #2d1303; 
+   margin-top: 4vw; 
+   margin-bottom: -15px;
 }
 
 a {
@@ -62,6 +110,11 @@ a {
 a:hover {
     color: #4c7100;
     text-decoration: none;
+}
+
+#hours h3 {
+    font-size: 3.5vw; 
+    margin-bottom: 25px;
 }
 
 /* Gallery */
