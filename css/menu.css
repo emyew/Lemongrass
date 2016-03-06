@@ -125,6 +125,7 @@ h1 {
 .circ-header > h2 {
   font-size: 4vw;
   text-align: center;
+  color: #2d1303;
 }
 
 
@@ -226,6 +227,7 @@ h1 {
 table {
   margin: auto;
   font-size: 4vw;
+  color: #2d1303;
 }
 
 td {
