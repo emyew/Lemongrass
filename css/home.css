@@ -5,70 +5,81 @@ h1 {
 }
 
 /* Logo, header, bowl */
-#header img {
-	width: 75%;
-	height: auto;
-}
-
 #header h1 {
-    font-size: 5vw; 
-    display: block; 
-    margin-left: auto; 
+    font-size: 5vw;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
     padding-top: 2vw;
 }
 
 #logo {
 	padding-top: 10%;
-    display: block; 
-    margin-left: auto; 
+    display: block;
+    margin-left: auto;
     margin-right: auto;
+    width: 75%;
+    height: auto;
 }
 
 #header br {
-    line-height: 5vw; 
-    display: block; 
+    line-height: 5vw;
+    display: block;
     margin: 10px 0;
 }
 
 #bowl {
-    display: block; 
-    margin-left: 15px; 
+    display: block;
+    margin-left: 15px;
     margin-right: auto;
+    width: 75%;
+    height: auto;
 }
 
 @media screen and (min-width: 1000px) {
-    #header img {
+    #bowl {
         width: 65%;
         height: auto;
     }
 
     #header h1 {
-        font-size: 50px; 
-        display: block; 
-        margin-left: auto; 
+        font-size: 50px;
+        display: block;
+        margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
     }
 
     #logo {
         padding-top: 50px;
-        display: block; 
-        margin-left: auto; 
+        display: block;
+        margin-left: auto;
         margin-right: auto;
     }
 
     #header br {
-        line-height: 50px; 
-        display: block; 
+        line-height: 50px;
+        display: block;
         margin: 10px 0;
     }
 
     #bowl {
-        display: block; 
-        margin-left: 100px; 
+        display: block;
+        margin-left: 100px;
         margin-right: auto;
+        display: none;
     }
+    #bowl2{
+      width: 100%;
+      overflow: hidden;
+      margin-left: -11.5vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+  #bowl2{
+    display: none;
+  }
 }
 
 /* Farm Fresh Plates header */
@@ -76,7 +87,7 @@ h1 {
 	background: #698723;
     /*float: left;*/
     display: table;
-    height: 12vw; 
+    height: 12vw;
     width: 100vw;
 }
 
@@ -85,8 +96,8 @@ h1 {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size: 5vw; 
-    color: #f1f1e7; 
+    font-size: 5vw;
+    color: #f1f1e7;
     padding-top: 3vw;
     /*top: 50%;
     left: 50%;
@@ -102,7 +113,7 @@ h1 {
     }
 
     #farmfresh h1 {
-        font-size: 50px;
+        font-size: 40px;
         padding-top: 35px;
     }
 }
@@ -115,12 +126,12 @@ h1 {
     clear: both;
     overflow: auto;
     display: table;
-    height: 50vw; 
+    height: 50vw;
     width: 100vw;
 }
 
 #hours h1 {
-    padding-top: 2vw; 
+    padding-top: 2vw;
     font-size: 5vw;
 }
 
@@ -131,7 +142,7 @@ h1 {
 }
 
 #hours ul {
-    list-style-type: none; 
+    list-style-type: none;
     font-size: 3.5vw;
 }
 
@@ -142,9 +153,9 @@ h1 {
 }
 
 #hours h2 {
-   font-size: 3.5vw; 
-   color: #2d1303; 
-   margin-top: 4vw; 
+   font-size: 3.5vw;
+   color: #2d1303;
+   margin-top: 4vw;
    margin-bottom: -15px;
 }
 
@@ -158,7 +169,7 @@ a:hover {
 }
 
 #hours h3 {
-    font-size: 3.5vw; 
+    font-size: 3.5vw;
     margin-bottom: 25px;
 }
 
@@ -168,23 +179,23 @@ a:hover {
     }
 
     #hours h1 {
-        padding-top: 20px; 
-        font-size: 50px;
+        padding-top: 20px;
+        font-size: 40px;
     }
 
 
     #hours ul {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #hours h2 {
-        font-size: 40px; 
-        margin-top: 30px; 
+        font-size: 30px;
+        margin-top: 30px;
         margin-bottom: -15px;
     }
 
     #hours h3 {
-        font-size: 40px; 
+        font-size: 30px;
         margin-bottom: 25px;
     }
 }
@@ -196,18 +207,75 @@ a:hover {
 }
 
 .carousel-caption {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(241, 241, 231, 0.8);
     left: 0;
     right: 0;
 }
 
 .carousel-caption h3 {
-    font-size: 6vw;
+    font-size: 30px;
+    color: #522610;
+    text-shadow: none;
+    font-weight: bold;
 }
 
-@media screen and (min-width: 1000px) {
+.carousel-caption p{
+  text-align: left;
+  font-size: 20px;
+  text-shadow: none;
+  color: #522610;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.carousel-indicators{
+  bottom: 0px;
+}
+
+.item{
+  overflow: hidden;
+  max-height: 700px;
+}
+
+@media screen and (min-width: 1200px) {
+  .item img{
+    -webkit-transform: translate(0%,-10%);
+      -ms-transform: translate(0%,-10%);
+          transform: translate(0%,-10%);
+  }
+}
+
+@media screen and (min-width: 767px) {
     .carousel-caption h3 {
-        font-size: 50px;
+        font-size: 35px;
+        padding: 10px;
     }
+
+    .carousel-indicators li, .carousel-indicators li.active{
+      width: 20px;
+      height: 20px;
+    }
+
+    .carousel-caption{
+        position: absolute;
+        max-width: 35vw;
+        left: 55%;
+        bottom: 10%;
+    }
+
 }
 
+@media screen and (max-width: 767px) {
+  .carousel-caption{
+    padding: 0px;
+  }
+  .carousel-caption h3 {
+      font-size: 5vw;
+  }
+
+  .carousel-caption p{
+    font-size: 4vw;
+  }
+}
