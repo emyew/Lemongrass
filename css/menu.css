@@ -2,6 +2,7 @@ h1 {
     white-space: pre;
     text-align: center;
     color: #2d1303;
+    z-index: 40;
 }
 
 /* Menu Header */
@@ -17,6 +18,29 @@ h1 {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+}
+
+#apps{
+  margin: auto;
+  text-align: center;
+  max-height: 40px;
+  background-color: #ff7700;
+}
+
+#apps a{
+  padding: 0px;
+  margin: 0px;
+  z-index: 50;
+}
+
+.google{
+  position: relative;
+  top: -17px;
+}
+
+.apple{
+  position: relative;
+  border-color: black;
 }
 
 .key{
@@ -354,12 +378,6 @@ h1 {
   background-size: 150%;
 }
 
-.roll{
-  background: url(../images/eggrolls.jpg);
-  background-position: center;
-  background-size: 150%;
-}
-
 .egg{
   background: url(../images/egg.jpg);
   background-position: center;
@@ -372,22 +390,16 @@ h1 {
   background-size: 155%;
 }
 
-.salad{
-  background: url(../images/green_salad.jpg);
-  background-position: right top;
-  background-size: 120%;
+.peanut{
+  background: url(../images/peanutsauce.jpg);
+  background-position: center top;
+  background-size: 200%;
 }
 
-.sauteed{
-  background: url(../images/sauteed_veggies.jpg);
-  background-position: right top;
-  background-size: 120%;
-}
-
-.soup{
-  background: url(../images/soup.jpg);
+.teriyaki{
+  background: url(../images/teriyaki.jpg);
   background-position: center;
-  background-size: 180%;
+  background-size: 160%;
 }
 
 .three-row{
@@ -397,6 +409,10 @@ h1 {
 
 .two-row{
   width: 60%;
+}
+
+.two-space{
+  margin-bottom: 3vw;
 }
 
 table {

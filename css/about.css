@@ -15,8 +15,20 @@ small {
 
 .storyimg{
   overflow:hidden;
-  max-height: 420px;
-  max-width: 100%;
+  max-height: 700px;
+  width: 100%;
+}
+
+.storyimg img{
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .storyimg img{
+    -webkit-transform: translate(0%,-10%);
+      -ms-transform: translate(0%,-10%);
+          transform: translate(0%,-10%);
+  }
 }
 
 /*.image-1 {
