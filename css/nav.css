@@ -12,6 +12,19 @@
 
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @media(max-width:768px) {
     #sidemenu{
       width: 100px;
@@ -32,6 +45,7 @@ html, body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    position: relative;
 }
 
 .navbar-toggle {

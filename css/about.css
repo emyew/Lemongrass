@@ -13,6 +13,12 @@ small {
     font-size: 20px;
 }
 
+.storyimg{
+  overflow:hidden;
+  max-height: 420px;
+  max-width: 100%;
+}
+
 /*.image-1 {
     background-size: 100%;
     background-position: relative;

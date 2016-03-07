@@ -5,13 +5,13 @@ h1 {
 }
 
 #get-in-touch h1 {
-	margin-top: 10vw; 
+	margin-top: 10vw;
 	font-size: 8vw;
 }
 
 #get-in-touch h2 {
-	text-align: center; 
-	color: #2d1303; 
+	text-align: center;
+	color: #2d1303;
 	font-size: 5vw;
 }
 
@@ -37,12 +37,27 @@ input, textarea {
 
 input {
 	line-height: 35px;
-	font-family: Tahoma;
+	font-family: "Raleway";
+  background-color: #f1f1e7;
+  border: 1px solid #6A862B;
+}
+
+.submitbutton{
+  font-family: Ikaros;
+  padding-top: 25px;
+  background-color: #6A862B;
+  color: #f1f1e7;
+}
+
+.submitbutton:active{
+  background-color: #557018;
 }
 
 textarea {
 	resize: none;
-	font-family: Tahoma;
+	font-family: "Raleway";
+  background-color: #f1f1e7;
+  border: 1px solid #6A862B;
 }
 
 #submit input {
