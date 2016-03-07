@@ -161,3 +161,32 @@ html, body {
     font-size: 40px;
   }
 }
+
+/*scroll to top*/
+.scrolltotop{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #522610;
+  z-index: 100;
+  text-decoration: none;
+  right: 40px;
+  bottom: 40px;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 2px;
+  border-radius: 20%;
+  display: none;
+}
+
+.scrolltotop:hover{
+  text-decoration: none;
+  color: #522610;
+  background-color: #f1f1e7;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
