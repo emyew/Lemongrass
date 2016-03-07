@@ -1,0 +1,25 @@
+h1 {
+    white-space: pre;
+    text-align: center;
+    color: #2d1303;
+}
+
+#get-in-touch h1 {
+	margin-top: 10vw;
+	font-size: 8vw;
+}
+
+#get-in-touch h2 {
+	text-align: center;
+	color: #2d1303;
+	font-size: 5vw;
+}
+
+.tycontent{
+  align: middle;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 60px;
+}
