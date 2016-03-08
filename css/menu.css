@@ -282,8 +282,9 @@ h1 {
   color: #FD8126;
 }
 
-.hearticon{
-  color: #D74937;
+.grainicon{
+  /*color: #D74937;*/
+  color: #698723;;
 }
 
 .imgdiv{
@@ -372,7 +373,7 @@ h1 {
 
 @media screen and (min-width:767px) {
   .carousel-caption-below > h3 {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .carousel-caption-below > h4 {
@@ -403,7 +404,7 @@ h1 {
       max-width: 60vw;
       left: 15%;
       top: 10%;
-      background: rgba(241, 241, 231, 0.8);
+      background: rgba(241, 241, 231, 0.7);
   }
 
 }
