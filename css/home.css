@@ -166,7 +166,14 @@ html, body {
    font-size: 3.5vw;
    color: #2d1303;
    margin-top: 4vw;
-   margin-bottom: -15px;
+   margin-bottom: -10px;
+}
+
+#hours h4 {
+   font-size: 3vw;
+   color: #2d1303;
+   margin-top: 15px;
+   margin-bottom: -10px;
 }
 
 a {
@@ -204,7 +211,14 @@ a:hover {
     #hours h2 {
         font-size: 30px;
         margin-top: 30px;
-        margin-bottom: -15px;
+        margin-bottom: -10px;
+        left: -75px;
+    }
+
+    #hours h4 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: -5px;
         left: -75px;
     }
 
