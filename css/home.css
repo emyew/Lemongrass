@@ -14,7 +14,7 @@ h1 {
 }
 
 #logo {
-	padding-top: 10%;
+padding-top: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -69,6 +69,7 @@ h1 {
         margin-right: auto;
         display: none;
     }
+
     #bowl2{
       width: 100%;
       overflow: hidden;
@@ -84,7 +85,7 @@ h1 {
 
 /* Farm Fresh Plates header */
 #farmfresh {
-	background: #698723;
+    background: #698723;
     /*float: left;*/
     display: table;
     height: 12vw;
@@ -107,7 +108,7 @@ h1 {
     line-height: 90px;  */
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 767px) {
     #farmfresh {
         height: 100px;
     }
@@ -115,9 +116,10 @@ h1 {
     #farmfresh h1 {
         font-size: 40px;
         padding-top: 35px;
+        left: -75px;
     }
 }
-
+ 
 /* Hours & Location section */
 #hours {
     background: #f1f1e7;
@@ -173,30 +175,35 @@ a:hover {
     margin-bottom: 25px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 767px) {
     #hours {
         height: 400px;
+        left: -75px;
     }
 
     #hours h1 {
         padding-top: 20px;
         font-size: 40px;
+        left: -75px;
     }
 
 
     #hours ul {
         font-size: 30px;
+        left: -75px;
     }
 
     #hours h2 {
         font-size: 30px;
         margin-top: 30px;
         margin-bottom: -15px;
+        left: -75px;
     }
 
     #hours h3 {
         font-size: 30px;
         margin-bottom: 25px;
+        left: -75px;
     }
 }
 
@@ -207,27 +214,30 @@ a:hover {
 }
 
 .carousel-caption {
-    background: rgba(241, 241, 231, 0.8);
+    background: rgba(241, 241, 231, 0.7);
     left: 0;
     right: 0;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
 }
 
 .carousel-caption h3 {
-    font-size: 30px;
+    font-size: 5vw;
     color: #522610;
     text-shadow: none;
     font-weight: bold;
+    padding-bottom: -10px;
 }
 
 .carousel-caption p{
-  text-align: left;
-  font-size: 20px;
+  text-align: center;
+  font-size: 3.5vw;
   text-shadow: none;
   color: #522610;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .carousel-indicators{
@@ -253,6 +263,10 @@ a:hover {
         padding: 10px;
     }
 
+    .carousel-caption p {
+        font-size: 25px;
+    }
+
     .carousel-indicators li, .carousel-indicators li.active{
       width: 20px;
       height: 20px;
@@ -267,7 +281,7 @@ a:hover {
 
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   .carousel-caption{
     padding: 0px;
   }
@@ -278,4 +292,4 @@ a:hover {
   .carousel-caption p{
     font-size: 4vw;
   }
-}
+}*/

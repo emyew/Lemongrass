@@ -5,17 +5,18 @@ h1 {
 }
 
 /* Menu Header */
-#menu-header {
+#menu-header h1 {
   font-size: 10vw;
   padding-top: 8vw;
   padding-bottom: 8vw;
 }
 
-@media screen and (min-width: 720px) {
-  #menu-header {
+@media screen and (min-width: 767px) {
+  #menu-header h1 {
     font-size: 70px;
     padding-top: 25px;
     padding-bottom: 25px;
+    /*margin-left: -5px;*/
   }
 }
 
@@ -64,26 +65,41 @@ h1 {
   }
 }
 
+@media screen and (min-width: 767px) {
+  .key h2 {
+    /*margin-left: -35px;*/
+  }
+
 /* Catering Info */
 #catering {
 	background: #ff7700;
 	margin: 0px;
   width: 100vw;
   height: 10vw;
+
+  /*display: block;*/
 }
 
 #catering > h1 {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    margin: 0px;
-    font-size: 5vw;
-    color: #f1f1e7;
-    padding-top: 3vw;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0px;
+  font-size: 5vw;
+  color: #f1f1e7;
+  padding-top: 3vw;
+  /*position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 5vw;
+  color: #f1f1e7;
+  padding-top: 3vw;
+  left: 25vw;*/
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 767px) {
   #catering {
     height: 55px;
   }
@@ -91,6 +107,11 @@ h1 {
   #catering > h1 {
     font-size: 30px;
     padding-top: 20px;
+    left: 43%;
+  }
+
+  #apps {
+    left: 15%;
   }
 }
 
@@ -100,6 +121,8 @@ h1 {
 	margin: 0px;
   width: 100vw;
   height: 15vw;
+
+  /*display: table;*/
 }
 
 #headers > h1 {
@@ -111,6 +134,14 @@ h1 {
   font-size: 5vw;
   color: #f1f1e7;
   padding-top: 3vw;
+  /*position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 5vw;
+  color: #f1f1e7;
+  padding-top: 3vw;
+  left: 5vw;*/
 }
 
 #sig-headers {
@@ -118,6 +149,9 @@ h1 {
   margin: 0px;
   width: 100vw;
   height: 20vw;
+
+  /*display: table;*/
+
 }
 
 #sig-headers h1 {
@@ -129,9 +163,17 @@ h1 {
   font-size: 5vw;
   color: #f1f1e7;
   padding-top: 3vw;
+  /*position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 5vw;
+  color: #f1f1e7;
+  padding-top: 3vw;
+  left: 5vw;*/
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 767px) {
   #headers {
     height: 90px;
   }
@@ -139,15 +181,19 @@ h1 {
   #headers > h1 {
     font-size: 40px;
     padding-top: 25px;
+    left: 43%;
+    /*left: -27px;*/
   }
 
   #sig-headers {
     height: 150px;
   }
 
-  #sig-headers h1 {
+  #sig-headers > h1 {
     font-size: 40px;
     padding-top: 25px;
+    left: 45%;
+    /*left: -27px;*/
   }
 }
 
@@ -346,17 +392,19 @@ h1 {
   color: #2d1303;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 767px) {
   .circ-header {
     padding-top: 15px;
   }
 
   .circ-header > h1 {
     font-size: 40px;
+    left: -75px;
   }
 
   .circ-header > h2 {
     font-size: 25px;
+    left: -75px;
   }
 }
 
