@@ -12,13 +12,14 @@ html, body {
     background-attachment: fixed;
     position: relative;
 }
-/* Logo, header, bowl */
+/* Logo, header */
 #header h1 {
     font-size: 5vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2vw;
+    margin-bottom: 7vw;
 }
 
 #logo {
@@ -26,7 +27,7 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 60vw;
     height: auto;
 }
 
@@ -36,21 +37,23 @@ html, body {
     margin: 10px 0;
 }
 
-#bowl {
-    display: block;
-    margin-left: 15px;
-    margin-right: auto;
-    width: 75%;
-    height: auto;
+.bowl{
+  margin-left: -10vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+      #logo {
+          padding-top: 50px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 @media screen and (min-width: 1000px) {
-    #bowl {
-        width: 65%;
-        height: auto;
-    }
-
     #header h1 {
+        width: 30vw;
         font-size: 50px;
         display: block;
         margin-left: auto;
@@ -58,38 +61,13 @@ html, body {
         padding-top: 20px;
     }
 
-    #logo {
-        padding-top: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     #header br {
         line-height: 50px;
         display: block;
         margin: 10px 0;
     }
-
-    #bowl {
-        display: block;
-        margin-left: 100px;
-        margin-right: auto;
-        display: none;
-    }
-
-    #bowl2{
-      width: 100%;
-      overflow: hidden;
-      margin-left: -11.5vw;
-    }
 }
 
-@media screen and (max-width: 1000px){
-  #bowl2{
-    display: none;
-  }
-}
 
 /* Farm Fresh Plates header */
 #farmfresh {
@@ -108,12 +86,6 @@ html, body {
     font-size: 5vw;
     color: #f1f1e7;
     padding-top: 3vw;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)*/
-    /*text-align: center;
-    vertical-align: middle;
-    line-height: 90px;  */
 }
 
 @media screen and (min-width: 767px) {
@@ -131,8 +103,6 @@ html, body {
 /* Hours & Location section */
 #hours {
     background: #f1f1e7;
-    /*float: left;
-    text-align: center; */
     clear: both;
     overflow: auto;
     display: table;
@@ -318,16 +288,3 @@ a:hover {
     }*/
 
 }
-
-/*@media screen and (max-width: 767px) {
-  .carousel-caption{
-    padding: 0px;
-  }
-  .carousel-caption h3 {
-      font-size: 5vw;
-  }
-
-  .carousel-caption p{
-    font-size: 4vw;
-  }
-}*/

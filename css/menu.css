@@ -54,6 +54,10 @@ h1 {
   font-size: 20pt;
 }
 
+.fireicon{
+  padding-left: 10px;
+}
+
 @media screen and (max-width: 767px) {
   .key h2{
     font-size: 18pt;
@@ -91,14 +95,6 @@ h1 {
   font-size: 5vw;
   color: #f1f1e7;
   padding-top: 3vw;
-  /*position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 5vw;
-  color: #f1f1e7;
-  padding-top: 3vw;
-  left: 25vw;*/
 }
 
 #try-app {
@@ -165,14 +161,6 @@ h1 {
   font-size: 5vw;
   color: #f1f1e7;
   padding-top: 3vw;
-  /*position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 5vw;
-  color: #f1f1e7;
-  padding-top: 3vw;
-  left: 5vw;*/
 }
 
 #sig-headers {
@@ -194,14 +182,6 @@ h1 {
   font-size: 5vw;
   color: #f1f1e7;
   padding-top: 3vw;
-  /*position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 5vw;
-  color: #f1f1e7;
-  padding-top: 3vw;
-  left: 5vw;*/
 }
 
 @media screen and (min-width: 767px) {
@@ -213,7 +193,6 @@ h1 {
     font-size: 40px;
     padding-top: 25px;
     left: 44%;
-    /*left: -27px;*/
   }
 
   #sig-headers {
@@ -224,7 +203,6 @@ h1 {
     font-size: 40px;
     padding-top: 25px;
     left: 44%;
-    /*left: -27px;*/
   }
 }
 
@@ -275,7 +253,6 @@ h1 {
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
   font-size: 5vw;
-  /*text-shadow: -5px 0 #698723, 0 5px #698723, 5px 0 #698723, 0 -5px #698723*/
 }
 
 .fireicon{
