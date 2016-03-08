@@ -4,6 +4,14 @@ h1 {
     color: #2d1303;
 }
 
+html, body {
+    background-image: url(../images/highqualitybowl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
 /* Logo, header, bowl */
 #header h1 {
     font-size: 5vw;
@@ -119,7 +127,7 @@ padding-top: 10%;
         left: -75px;
     }
 }
- 
+
 /* Hours & Location section */
 #hours {
     background: #f1f1e7;

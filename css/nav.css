@@ -42,6 +42,7 @@ html, body {
     width: 100%;
     min-height: 100%;
     font-family: "Ikaros";
+    /*background-color: #FCEDD6;*/
     background-image: url(../images/bamboo_tabletop.png);
     background-size: cover;
     background-position: center;
