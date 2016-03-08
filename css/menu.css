@@ -16,6 +16,7 @@ h1 {
     font-size: 70px;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-left: -50px;
     /*margin-left: -5px;*/
   }
 }
@@ -67,8 +68,9 @@ h1 {
 
 @media screen and (min-width: 767px) {
   .key h2 {
-    /*margin-left: -35px;*/
+    margin-left: -35px;
   }
+}
 
 /* Catering Info */
 #catering {
@@ -99,19 +101,48 @@ h1 {
   left: 25vw;*/
 }
 
+#try-app {
+  background: #ff7700;
+  margin: 0px;
+  width: 100vw;
+  height: 10vw;
+}
+
+#try-app h1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0px;
+  font-size: 5vw;
+  color: #f1f1e7;
+  padding-top: 3vw;
+}
+
 @media screen and (min-width: 767px) {
   #catering {
     height: 55px;
   }
 
-  #catering > h1 {
+  #catering h1 {
     font-size: 30px;
     padding-top: 20px;
-    left: 43%;
+    left: 44%;
   }
 
-  #apps {
-    left: 15%;
+  /*.apple {
+    margin-left: 1px;
+  }*/
+
+  #try-app {
+    height: 55px;
+  }
+
+  #try-app h1 {
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+    left: 44%;
   }
 }
 
@@ -181,7 +212,7 @@ h1 {
   #headers > h1 {
     font-size: 40px;
     padding-top: 25px;
-    left: 43%;
+    left: 44%;
     /*left: -27px;*/
   }
 
@@ -192,7 +223,7 @@ h1 {
   #sig-headers > h1 {
     font-size: 40px;
     padding-top: 25px;
-    left: 45%;
+    left: 44%;
     /*left: -27px;*/
   }
 }
