@@ -383,7 +383,8 @@ h1 {
   }
 
   .carousel-caption-below > ul > li {
-    font-size: 2vw;
+    font-size: 1.9vw;
+    margin-left: -37px;
   }
 
   .grilledcap, .signaturecap, .drinkcap{
@@ -537,7 +538,7 @@ td {
   text-align: center;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 767px) {
   .circle_content{
     width: 12vw;
     height: 12vw;
