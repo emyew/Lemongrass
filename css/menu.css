@@ -215,11 +215,42 @@ h1 {
   overflow: hidden;
 }
 
+.imgflip{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
 @media screen and (min-width: 1200px) {
+
   .imgdiv img{
     -webkit-transform: translate(0%,-10%);
       -ms-transform: translate(0%,-10%);
           transform: translate(0%,-10%);
+  }
+
+  .imgdiv .drinkimg{
+    -webkit-transform: translate(0%,-20%);
+      -ms-transform: translate(0%,-20%);
+          transform: translate(0%,-20%);
+  }
+
+  .imgdiv .drinkflip{
+    -webkit-transform: translate(0%,-15%) scaleX(-1);
+      -ms-transform: translate(0%,-15%) scaleX(-1);
+          transform: translate(0%,-15%) scaleX(-1);
+  }
+
+  .item .imgflip{
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
   }
 
   .carousel-caption-below > h3 {
@@ -357,7 +388,7 @@ h1 {
 .tofu{
   background: url(../images/tofu.jpg);
   background-position: center;
-  background-size: 200%;
+  background-size: 110%;
 }
 
 .beef{
