@@ -22,7 +22,7 @@ html, body {
 }
 
 #logo {
-padding-top: 10%;
+    padding-top: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -222,7 +222,8 @@ a:hover {
 }
 
 .carousel-caption {
-    background: rgba(241, 241, 231, 0.7);
+    /*background: rgba(241, 241, 231, 0.7);*/
+    background: rgba(0, 0, 0, 0.6);
     left: 0;
     right: 0;
     padding-top: 0.25vw;
@@ -231,7 +232,8 @@ a:hover {
 
 .carousel-caption h3 {
     font-size: 5vw;
-    color: #522610;
+    /*color: #522610;*/
+    color: white;
     text-shadow: none;
     font-weight: bold;
     padding-bottom: -10px;
@@ -241,7 +243,8 @@ a:hover {
   text-align: center;
   font-size: 3.5vw;
   text-shadow: none;
-  color: #522610;
+  /*color: #522610;*/
+  color: white;
   margin-left: 2vw;
   margin-right: 2vw;
   padding-left: 2vw;
@@ -267,25 +270,38 @@ a:hover {
 
 @media screen and (min-width: 767px) {
     .carousel-caption h3 {
-        font-size: 35px;
-        padding: 10px;
+        /*font-size: 35px;
+        padding: 10px;*/
+        font-size: 3vw;
     }
 
     .carousel-caption p {
-        font-size: 25px;
+        /*font-size: 25px;*/
+        font-size: 2.5vw;
     }
 
     .carousel-indicators li, .carousel-indicators li.active{
-      width: 20px;
-      height: 20px;
+      /*width: 20px;
+      height: 20px;*/
+      width: 15px;
+      height: 15px;
     }
 
-    .carousel-caption{
+    /*.carousel-caption{
         position: absolute;
         max-width: 35vw;
         left: 55%;
         bottom: 10%;
-    }
+    }*/
+
+    /*.carousel-caption{
+      position: absolute;
+      padding: 2vw;
+      max-width: 50vw;
+      left: 10%;
+      margin-bottom: 25vw;
+      background: rgba(241, 241, 231, 0.7);
+    }*/
 
 }
 
