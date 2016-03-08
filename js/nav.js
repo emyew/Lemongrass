@@ -15,4 +15,14 @@ $(document).ready(function() {
     $('html, body').animate({scrollTop: 0}, duration);
     return false;
   })
+
+  //hide or show offcanvas property based on window size
+  $(window).bind("resize",function(){
+    if($(this).width() < 767){
+    $('#sidemenu').addClass('offcanvas')
+    }
+    else{
+    $('#sidemenu').removeClass('offcanvas')
+    }
+  })
 });

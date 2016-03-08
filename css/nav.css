@@ -38,6 +38,7 @@
 }
 
 html, body {
+    overflow-x: hidden;
     width: 100%;
     min-height: 100%;
     font-family: "Ikaros";
@@ -76,6 +77,15 @@ html, body {
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
+}
+
+@media screen and (min-width: 767px) {
+  #sidemenu{
+    left: 0px;
+  }
+  html, body{
+    padding-left:75px;
+  }
 }
 
 #navbrand{
