@@ -115,7 +115,7 @@ h1 {
   padding-top: 3vw;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (min-height: 571px) {
   #catering {
     height: 55px;
   }
@@ -184,7 +184,7 @@ h1 {
   padding-top: 3vw;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (min-height: 571px){
   #headers {
     height: 90px;
   }

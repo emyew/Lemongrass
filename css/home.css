@@ -88,7 +88,7 @@ html, body {
     padding-top: 3vw;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (min-height: 571px) {
     #farmfresh {
         height: 100px;
     }
@@ -160,7 +160,7 @@ a:hover {
     margin-bottom: 25px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 767px) and (min-height: 571px){
     #hours {
         height: 400px;
         left: -75px;
