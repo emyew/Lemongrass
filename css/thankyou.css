@@ -25,10 +25,19 @@ h1 {
   color: #2d1303;
 }
 
+.tycontent img {
+  width: 50%;
+  height: 50%;
+}
+
+/*.tycontent p {
+  padding-bottom: 60vw;
+}*/
+
 @media screen and (min-width: 767px) {
   #get-in-touch h1 {
     margin-top: 70px;
-    font-size: 70px;
+    font-size: 65px;
   }
 
   #get-in-touch h2 {
@@ -38,4 +47,10 @@ h1 {
   .tycontent {
     font-size: 30px;
   }
+
+  .tycontent img {
+    width: 400px;
+    height: 400px;
+  }
 }
+
