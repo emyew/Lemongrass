@@ -327,6 +327,15 @@ h1 {
   }
 }
 
+@media screen and (min-width: 1500px) {
+
+  .imgdiv img{
+    -webkit-transform: translate(0%,-20%);
+      -ms-transform: translate(0%,-20%);
+          transform: translate(0%,-20%);
+  }
+}
+
 .grilledcap{
   min-height: 20vw;
   padding: 7vw;
