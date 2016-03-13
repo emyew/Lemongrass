@@ -17,7 +17,6 @@ h1 {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-left: -50px;
-    /*margin-left: -5px;*/
   }
 }
 
@@ -86,8 +85,6 @@ h1 {
 	margin: 0px;
   width: 100vw;
   height: 10vw;
-
-  /*display: block;*/
 }
 
 #catering > h1 {
@@ -130,10 +127,6 @@ h1 {
     left: 44%;
   }
 
-  /*.apple {
-    margin-left: 1px;
-  }*/
-
   #try-app {
     height: 55px;
   }
@@ -172,9 +165,6 @@ h1 {
   margin: 0px;
   width: 100vw;
   height: 20vw;
-
-  /*display: table;*/
-
 }
 
 #sig-headers h1 {
@@ -264,7 +254,6 @@ h1 {
 }
 
 .grainicon{
-  /*color: #D74937;*/
   color: #698723;;
 }
 
@@ -368,12 +357,10 @@ h1 {
 @media screen and (min-width:767px) {
   .carousel-caption-below > h3 {
     font-size: 3vw;
-    /*font-size: 27px;*/
   }
 
   .carousel-caption-below > h4 {
     font-size: 2vw;
-    /*font-size: 20px;*/
   }
 
   .carousel-caption-below > ul > li {

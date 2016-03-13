@@ -28,11 +28,7 @@ h1 {
 
 /* FEEDBACK FORM */
 .container {
-/*	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 65px;
-	max-width: 580px;*/
-    margin: 0 auto;
+  margin: 0 auto;
 	max-width: 600px;
 	padding-top: 40px;
 	padding-bottom: 40px;
