@@ -18,12 +18,12 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = $visitor_email;//<== update the email address
+$email_from = $visitor_email;
 $email_subject = "Lemongrass Feedback Form Submission from $first_name $last_name";
 $email_body = "You have received a new message from the user $first_name $last_name at $visitor_email.\n\n".
     "Here is the message:\n $message\n\n".
 
-$to = "emyew2@gmail.com";//<== update the email address
+$to = "lemongrassplates@gmail.com"; //<== email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
