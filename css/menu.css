@@ -42,12 +42,16 @@ h1 {
 .apple{
   position: relative;
   border-color: black;
+  -webkit-backface-visibility: hidden;
+	-webkit-transform: scale(1);
 }
 
 .key{
   margin: auto;
   min-width: 30vw;
   text-align: center;
+  -webkit-backface-visibility: hidden;
+	-webkit-transform: scale(1);
 }
 
 .key h2{
@@ -341,6 +345,10 @@ h1 {
   padding: 7vw;
   padding-top: 3vw;
   padding-bottom: 5vw;
+}
+
+.carousel-caption-below{
+  overflow: visible;
 }
 
 .signaturecap{
